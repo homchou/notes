@@ -6,9 +6,42 @@
 </description>
     <link>http://127.0.0.1:4000/</link>
     <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 May 2015 16:33:19 +0800</pubDate>
-    <lastBuildDate>Mon, 11 May 2015 16:33:19 +0800</lastBuildDate>
+    <pubDate>Mon, 25 May 2015 02:05:04 +0800</pubDate>
+    <lastBuildDate>Mon, 25 May 2015 02:05:04 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Error: You must `brew link pcre&#39; before nginx can be installed</title>
+        <description>&lt;p&gt;问题出现场景：
+在OSX yosemite中使用brew安装nginx出现&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;must&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`brew link pcre&amp;#39; before nginx can be installed&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;出现此报错意味着系统环境已经安装pcre但是nginx未和pcre链接上，所以先卸载pcre&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uninstall&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pcre&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;然后再安装nginx&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nginx&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;成功！&lt;/p&gt;
+
+&lt;p&gt;因为在安装nginx的时候依赖于openssl,pcre 且需要链接安装，所以单独卸载nginx而没清理掉pcre再安装nginx就会出现未链接错误。&lt;/p&gt;
+
+&lt;p&gt;参考：
+http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yosemite&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 May 2015 09:42:01 +0800</pubDate>
+        <link>http://127.0.0.1:4000/brew/nginx/2015/05/25/brew-nginx.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/brew/nginx/2015/05/25/brew-nginx.html</guid>
+        
+        
+        <category>brew</category>
+        
+        <category>nginx</category>
+        
+      </item>
     
       <item>
         <title>Apache Solr介绍及安装</title>
@@ -303,138 +336,6 @@
         <pubDate>Tue, 04 Nov 2014 06:06:32 +0800</pubDate>
         <link>http://127.0.0.1:4000/oracle/2014/11/04/redhat-oracle-start.html</link>
         <guid isPermaLink="true">http://127.0.0.1:4000/oracle/2014/11/04/redhat-oracle-start.html</guid>
-        
-        
-        <category>oracle</category>
-        
-      </item>
-    
-      <item>
-        <title>OSX下的虚拟机（redhat6.5）上装Oracle 11g R2教程</title>
-        <description>&lt;h1 id=&quot;section&quot;&gt;环境&lt;/h1&gt;
-
-&lt;p&gt;本机：osx Yosemite 10.10&lt;/p&gt;
-
-&lt;p&gt;虚拟机：VMware Fusion&lt;/p&gt;
-
-&lt;p&gt;Linux：redhat6.5 64 位&lt;/p&gt;
-
-&lt;p&gt;Oracle：Oracle 11g R2&lt;/p&gt;
-
-&lt;h1 id=&quot;section-1&quot;&gt;准备&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;安装redhat6.5操作系统，并下载oracle安装包到redhat。（可先在本机下载，再传到redhat）
-oracle 下载地址：http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html
-我是选择“Oracle Database 11g Release 2” – “Linux x86-64”，一共2个zip压缩文件，到redhat一起压缩合并。&lt;/li&gt;
-  &lt;li&gt;安装oracle依赖包，很多包系统已经集成，只需要新安装如下7个包即可，其中6个在redhat镜像盘的package里面都有。
-compat-libstdc++
-elfutils-libelf-devel
-elfutils-libelf-devel-static (自带package里面没有，可根据版本自行搜索下载此包)
-ksh
-libaio-devel
-libstdc++-devel
-unixODBC-devel&lt;/li&gt;
-  &lt;li&gt;创建”oracle”用户
-在root下：创建Oracle安装组“oinstall”,数据库管理员组“dba”，及“oracle”用户，脚本如下：
-# /usr/sbin/groupadd oinstall
-# /usr/sbin/groupadd dba
-# /usr/sbin/useradd -g oinstall -G dba oracle（主组oinstall，其它组：dba）
-# passwd oracle (设置系统的oracle用户密码)&lt;/li&gt;
-  &lt;li&gt;修改系统内核参数，具体脚本如下
-root用户下：修改 /etc/sysctl.conf 文件，加上如下参数
-fs.aio-max-nr = 1048576
-fs.file-max = 6815744
-kernel.shmall = 2097152
-kernel.shmmax = 536870912
-kernel.shmmni = 4096
-kernel.sem = 250 32000 100 128
-net.ipv4.ip_local_port_range = 9000 65500
-net.core.rmem_default = 262144
-net.core.rmem_max = 4194304
-net.core.wmem_default = 262144
-net.core.wmem_max = 1048586
-为使上述配置生效而不重启系统，执行如下命令
-# /sbin/sysctl -p&lt;/li&gt;
-  &lt;li&gt;修改用户限制
-root用户下：修改 /etc/security/limits.conf 文件，加上下面的参数
-oracle           soft    nproc   2047
-oracle           hard    nproc   16384
-oracle           soft    nofile  1024
-oracle           hard    nofile  65536&lt;/li&gt;
-  &lt;li&gt;修改用户验证选项
-root用户下：修改/etc/pam.d/login文件加上如下参数
-session    required     pam_limits.so&lt;/li&gt;
-  &lt;li&gt;修改用户配置文件
-root用户下：修改/etc/profile文件加入如下参数：
-if [ $USER = &quot;oracle&quot; ]; then
- if [ $SHELL = &quot;/bin/ksh&quot; ]; then 
-     ulimit -p 16384
-     ulimit -n 65536
- else
-     ulimit -u 16384 -n 65536
- fi
-fi&lt;/li&gt;
-  &lt;li&gt;安装目录配置
-root用户下：
-# mkdir -p /u01/oraInventory
-# chown -R oracle:oinstall /u01/
-# chmod -R 775 /u01/&lt;/li&gt;
-  &lt;li&gt;修改用户bash shell
-这个是用户启动自动设置的环境变量，可根据启动用户进行设置，此处设置root用户，依然在root用户下：
-$ vi .bash_profile
-增加如下内容，主要是修改，根据oracle的安装路径进行配置
-export ORACLE_BASE=/u01
-export ORACLE_HOME=$ORACLE_BASE/oracle
-export ORACLE_SID=oracleSid
-export PATH=$ORACLE_HOME/bin:$PATH:$HOME/bin
-export LANG=”zh_US”
-完成后执行：
-#su oracle
-#env | grep ora     (查看环境变量是否完成)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;oracle&quot;&gt;安装Oracle&lt;/h1&gt;
-&lt;ol&gt;
-  &lt;li&gt;使用oracle用户登陆（图形界面），并解压oracle安装包
-$unzip linux.x64_11gR2_database_1of2.zip
-$unzip linux.x64_11gR2_database_2of2.zip
-#再将解压的database合并
-再进入解压的database目录执行
-$ ./runInstaller
-此时就会弹出按照常规安装方法进行安装..
-安装完后可用以下命令进行监听的配置
-$ netca
-配置完成后可用下面命令进行监听是否启动检查
-$ ps -ef|grep listener
-如果安装过程中没有创建数据库可用以下命令进行创建
-$ dbca
-配置完成后用下面命令进行启动检查
-$ ps -ef|grep oracle&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;section-2&quot;&gt;测试&lt;/h1&gt;
-&lt;p&gt;这个时候我们就可以用sqlplus进行测试：
-$sqlplus /nolog 
-SQL&amp;gt;conn / as sysdba 
-SQL&amp;gt;create table mytable(name varchar(10), age int); 
-SQL&amp;gt;insert into mytable values(‘user1’,12); 
-SQL&amp;gt;select * from mytable;
-如果在进行连接时候出现如下消息(如下图)
-Connected to an idle instance.
-&lt;img src=&quot;http://7u2srn.com1.z0.glb.clouddn.com/@/images/post//vmware-redhat-oracle_01.png&quot; alt=&quot;Alt text&quot; /&gt;
-那么就是oracle并没有开启，执行
-SQL&amp;gt; startup
-即可。&lt;/p&gt;
-
-&lt;h1 id=&quot;section-3&quot;&gt;后记&lt;/h1&gt;
-&lt;p&gt;本文主要记录在redhat下安装oracle的基本过程，后面我会写一篇利用存命令行来使用oracle，让我们的虚拟机占用内存降低，以及把开启oracle写成服务随着用户登陆自动开启。&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-</description>
-        <pubDate>Thu, 30 Oct 2014 18:54:00 +0800</pubDate>
-        <link>http://127.0.0.1:4000/oracle/2014/10/30/vmware-redhat-oracle.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/oracle/2014/10/30/vmware-redhat-oracle.html</guid>
         
         
         <category>oracle</category>

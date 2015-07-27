@@ -6,13 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Error: You must `brew link pcre' before nginx can be installed</title>
-  <meta name="description" content="问题出现场景：在OSX yosemite中使用brew安装nginx出现Error: You must `brew link pcre&#39; before nginx can be installed">
+  <title>Error: You must 'brew link pcre' before nginx can be installed</title> 
+  <meta name="keywords" content="Error: You must 'brew link pcre' before nginx can be installed" />
+  <meta name="description" content="问题出现场景在OSX 10.10中使用brew安装nginx出现Error: You must &#39;brew link pcre&#39; before nginx can be installed">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://127.0.0.1:4000/brew/nginx/2015/05/25/brew-nginx.html">
-  <link rel="alternate" type="application/rss+xml" title="blog" href="http://127.0.0.1:4000/feed.xml" />
-</head>
+  <link rel="canonical" href="http://blog.chouhom.com/brew/nginx/2015/05/25/brew-nginx.html">
+  <link rel="alternate" type="application/rss+xml" title="blog" href="http://blog.chouhom.com/feed.xml" />
+</head> 
 
 
   <body>
@@ -57,17 +58,17 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Error: You must `brew link pcre' before nginx can be installed</h1>
+    <h1 class="post-title">Error: You must 'brew link pcre' before nginx can be installed</h1>
     <p class="post-meta">May 25, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>问题出现场景：
-在OSX yosemite中使用brew安装nginx出现</p>
+    <p>问题出现场景<br />
+在OSX 10.10中使用brew安装nginx出现</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">Error</span><span class="p">:</span> <span class="no">You</span> <span class="n">must</span> <span class="sb">`brew link pcre&#39; before nginx can be installed</span></code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">Error</span><span class="p">:</span> <span class="no">You</span> <span class="n">must</span> <span class="s1">&#39;brew link pcre&#39;</span> <span class="n">before</span> <span class="n">nginx</span> <span class="n">can</span> <span class="n">be</span> <span class="n">installed</span></code></pre></div>
 
-<p>出现此报错意味着系统环境已经安装pcre但是nginx未和pcre链接上，所以先卸载pcre</p>
+<p>出现此报错意味着系统环境已经安装pcre但是nginx未和pcre链接上，所以先卸载<code>pcre</code></p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">brew</span> <span class="n">uninstall</span> <span class="n">pcre</span></code></pre></div>
 
@@ -79,8 +80,8 @@
 
 <p>因为在安装nginx的时候依赖于openssl,pcre 且需要链接安装，所以单独卸载nginx而没清理掉pcre再安装nginx就会出现未链接错误。</p>
 
-<p>参考：
-http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yosemite</p>
+<p>参考：<br />
+<a href="http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yosemite">http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yosemite</a></p>
 
   </article>
 

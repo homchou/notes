@@ -6,13 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>利用U盘制作OSX 10.9、10.10的安装盘</title>
-  <meta name="description" content="打开磁盘工具：如果是8G的Ｕ盘就直接抹掉，格式为mac os扩展（日志式），其他选项保持默认就行；如果是容量大点的移动硬盘就进行分区，分三个区：一个是启动分区，格式为mac os扩展（日志式），分区表为GUID，名称为Mavericks；另一个是备份分区，名字为back,格式为mac os扩展（日志式）；第三个为...">
+  <title>利用U盘制作OSX 10.9、10.10的安装盘</title> 
+  <meta name="keywords" content="利用U盘制作OSX 10.9、10.10的安装盘" />
+  <meta name="description" content="首先打开磁盘工具；">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://127.0.0.1:4000/osx/2015/04/06/use-u-osx.html">
-  <link rel="alternate" type="application/rss+xml" title="blog" href="http://127.0.0.1:4000/feed.xml" />
-</head>
+  <link rel="canonical" href="http://blog.chouhom.com/osx/2015/04/06/use-u-osx.html">
+  <link rel="alternate" type="application/rss+xml" title="blog" href="http://blog.chouhom.com/feed.xml" />
+</head> 
 
 
   <body>
@@ -62,23 +63,35 @@
   </header>
 
   <article class="post-content">
-    <p>打开磁盘工具：如果是8G的Ｕ盘就直接抹掉，格式为mac os扩展（日志式），其他选项保持默认就行；如果是容量大点的移动硬盘就进行分区，分三个区：一个是启动分区，格式为mac os扩展（日志式），分区表为GUID，名称为Mavericks；另一个是备份分区，名字为back,格式为mac os扩展（日志式）；第三个为储存分区，格式为efat格式，起个名字，可以存储大于4g的文件。然后，点击应用就行。然后下载系统程序（最好在app store里下载正版的mac osx操作系统），并将下载好的程序放到应用程序文件夹里（双击挂载）！</p>
+    <p>首先打开磁盘工具；</p>
 
-<p>1､打开终端输入：sudo空格</p>
+<ul>
+  <li>如果是8G的Ｕ盘就直接抹掉，格式为mac os扩展（日志式），其他选项保持默认就行;</li>
+  <li>如果是容量大点的移动硬盘就进行分区，分三个区：<br />
+一个是启动分区，格式为mac os扩展（日志式），分区表为GUID，名称为Mavericks;<br />
+另一个是备份分区，名字为back,格式为mac os扩展（日志式）；<br />
+第三个为储存分区，格式为efat格式，起个名字，可以存储大于4g的文件。</li>
+</ul>
 
-<p>2､拖文件“createinstallmedia”（位于安装程序右键－显示包文件－contents－resources文件夹里）</p>
+<p>然后，点击应用就行。然后下载系统程序（最好在app store里下载正版的macosx操作系统），并将下载好的程序放到应用程序文件夹里，双击挂载（安装低版本可能挂载不了，没关系）。</p>
 
-<p>3､输入- -volume空格</p>
+<p>1､打开终端输入：<code>sudo+空格</code></p>
 
-<p>4､拖你的“Mavericks”Ｕ盘或移动硬盘分区到终端</p>
+<p>2､拖文件<code>createinstallmedia</code>（位于安装程序右键－显示包文件－contents－resources文件夹里）</p>
 
-<p>5､输入- -applicationpath空格</p>
+<p>3､输入<code>--volume</code>空格</p>
 
-<p>6､拖安装程序（就是“安装osx mavericks”）到终端</p>
+<p>4､拖你的“<code>Mavericks</code> or <code>yosemite</code> ,<code>el capitan</code>”Ｕ盘或移动硬盘分区到终端，例如<code>/Volumes/MyBook</code>。</p>
 
-<p>7､输入- -nointeraction回车</p>
+<p>5､输入<code>--applicationpath</code>空格</p>
 
-<p>提示输入你的开机密码就出现下图，然后等；当出现第二图时就大功告成了！！</p>
+<p>6､拖安装程序<code>安装osx mavericks</code>到终端</p>
+
+<p>7､输入<code>--nointeraction</code>回车</p>
+
+<p>提示输入你的开机密码就出现下图，然后等待；当出现第二图时就大功告成了！！</p>
+
+<p><img src="http://7u2srn.com1.z0.glb.clouddn.com/@/images/post/upanosx.PNG" alt="pic 01" /></p>
 
   </article>
 

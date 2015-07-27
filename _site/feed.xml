@@ -4,20 +4,20 @@
     <title>blog</title>
     <description>一个博客而已
 </description>
-    <link>http://127.0.0.1:4000/</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 May 2015 02:02:43 +0800</pubDate>
-    <lastBuildDate>Mon, 25 May 2015 02:02:43 +0800</lastBuildDate>
+    <link>http://blog.chouhom.com/</link>
+    <atom:link href="http://blog.chouhom.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Jul 2015 12:53:04 +0800</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2015 12:53:04 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Error: You must `brew link pcre&#39; before nginx can be installed</title>
-        <description>&lt;p&gt;问题出现场景：
-在OSX yosemite中使用brew安装nginx出现&lt;/p&gt;
+        <title>Error: You must &#39;brew link pcre&#39; before nginx can be installed</title>
+        <description>&lt;p&gt;问题出现场景&lt;br /&gt;
+在OSX 10.10中使用brew安装nginx出现&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;must&lt;/span&gt; &lt;span class=&quot;sb&quot;&gt;`brew link pcre&amp;#39; before nginx can be installed&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;must&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;brew link pcre&amp;#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;before&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nginx&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;installed&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;出现此报错意味着系统环境已经安装pcre但是nginx未和pcre链接上，所以先卸载pcre&lt;/p&gt;
+&lt;p&gt;出现此报错意味着系统环境已经安装pcre但是nginx未和pcre链接上，所以先卸载&lt;code&gt;pcre&lt;/code&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uninstall&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pcre&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -29,12 +29,12 @@
 
 &lt;p&gt;因为在安装nginx的时候依赖于openssl,pcre 且需要链接安装，所以单独卸载nginx而没清理掉pcre再安装nginx就会出现未链接错误。&lt;/p&gt;
 
-&lt;p&gt;参考：
-http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yosemite&lt;/p&gt;
+&lt;p&gt;参考：&lt;br /&gt;
+&lt;a href=&quot;http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yosemite&quot;&gt;http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yosemite&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 May 2015 09:42:01 +0800</pubDate>
-        <link>http://127.0.0.1:4000/brew/nginx/2015/05/25/brew-nginx.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/brew/nginx/2015/05/25/brew-nginx.html</guid>
+        <link>http://blog.chouhom.com/brew/nginx/2015/05/25/brew-nginx.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/brew/nginx/2015/05/25/brew-nginx.html</guid>
         
         
         <category>brew</category>
@@ -54,8 +54,8 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
 &lt;p&gt;下载地址：http://archive.apache.org/dist/lucene/solr/&lt;/p&gt;
 </description>
         <pubDate>Sat, 09 May 2015 20:42:01 +0800</pubDate>
-        <link>http://127.0.0.1:4000/apahce/solr/2015/05/09/Apache_Solr_01.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/apahce/solr/2015/05/09/Apache_Solr_01.html</guid>
+        <link>http://blog.chouhom.com/apahce/solr/2015/05/09/Apache_Solr_01.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/apahce/solr/2015/05/09/Apache_Solr_01.html</guid>
         
         
         <category>apahce</category>
@@ -74,12 +74,37 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
 
 &lt;h4 id=&quot;section-3&quot;&gt;标题二&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://7u2srn.com1.z0.glb.clouddn.com/@/images/post/1.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;引用&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;菠萝&lt;/li&gt;
+  &lt;li&gt;茄子&lt;/li&gt;
+  &lt;li&gt;西红柿&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;正方形&lt;/li&gt;
+  &lt;li&gt;圆形&lt;/li&gt;
+  &lt;li&gt;方块&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.baidu.com&quot;&gt;linkaddress&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.baidu.com/img/bdlogo.png&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 01 May 2015 10:06:32 +0800</pubDate>
-        <link>http://127.0.0.1:4000/jekyll/2015/05/01/test-markdown.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/jekyll/2015/05/01/test-markdown.html</guid>
+        <link>http://blog.chouhom.com/jekyll/2015/05/01/test-markdown.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/jekyll/2015/05/01/test-markdown.html</guid>
         
         
         <category>jekyll</category>
@@ -104,8 +129,8 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
 
 </description>
         <pubDate>Fri, 01 May 2015 09:56:32 +0800</pubDate>
-        <link>http://127.0.0.1:4000/jekyll/update/2015/05/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/jekyll/update/2015/05/01/welcome-to-jekyll.html</guid>
+        <link>http://blog.chouhom.com/jekyll/update/2015/05/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/jekyll/update/2015/05/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -116,27 +141,39 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
     
       <item>
         <title>利用U盘制作OSX 10.9、10.10的安装盘</title>
-        <description>&lt;p&gt;打开磁盘工具：如果是8G的Ｕ盘就直接抹掉，格式为mac os扩展（日志式），其他选项保持默认就行；如果是容量大点的移动硬盘就进行分区，分三个区：一个是启动分区，格式为mac os扩展（日志式），分区表为GUID，名称为Mavericks；另一个是备份分区，名字为back,格式为mac os扩展（日志式）；第三个为储存分区，格式为efat格式，起个名字，可以存储大于4g的文件。然后，点击应用就行。然后下载系统程序（最好在app store里下载正版的mac osx操作系统），并将下载好的程序放到应用程序文件夹里（双击挂载）！&lt;/p&gt;
+        <description>&lt;p&gt;首先打开磁盘工具；&lt;/p&gt;
 
-&lt;p&gt;1､打开终端输入：sudo空格&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;如果是8G的Ｕ盘就直接抹掉，格式为mac os扩展（日志式），其他选项保持默认就行;&lt;/li&gt;
+  &lt;li&gt;如果是容量大点的移动硬盘就进行分区，分三个区：&lt;br /&gt;
+一个是启动分区，格式为mac os扩展（日志式），分区表为GUID，名称为Mavericks;&lt;br /&gt;
+另一个是备份分区，名字为back,格式为mac os扩展（日志式）；&lt;br /&gt;
+第三个为储存分区，格式为efat格式，起个名字，可以存储大于4g的文件。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;2､拖文件“createinstallmedia”（位于安装程序右键－显示包文件－contents－resources文件夹里）&lt;/p&gt;
+&lt;p&gt;然后，点击应用就行。然后下载系统程序（最好在app store里下载正版的macosx操作系统），并将下载好的程序放到应用程序文件夹里，双击挂载（安装低版本可能挂载不了，没关系）。&lt;/p&gt;
 
-&lt;p&gt;3､输入- -volume空格&lt;/p&gt;
+&lt;p&gt;1､打开终端输入：&lt;code&gt;sudo+空格&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;4､拖你的“Mavericks”Ｕ盘或移动硬盘分区到终端&lt;/p&gt;
+&lt;p&gt;2､拖文件&lt;code&gt;createinstallmedia&lt;/code&gt;（位于安装程序右键－显示包文件－contents－resources文件夹里）&lt;/p&gt;
 
-&lt;p&gt;5､输入- -applicationpath空格&lt;/p&gt;
+&lt;p&gt;3､输入&lt;code&gt;--volume&lt;/code&gt;空格&lt;/p&gt;
 
-&lt;p&gt;6､拖安装程序（就是“安装osx mavericks”）到终端&lt;/p&gt;
+&lt;p&gt;4､拖你的“&lt;code&gt;Mavericks&lt;/code&gt; or &lt;code&gt;yosemite&lt;/code&gt; ,&lt;code&gt;el capitan&lt;/code&gt;”Ｕ盘或移动硬盘分区到终端，例如&lt;code&gt;/Volumes/MyBook&lt;/code&gt;。&lt;/p&gt;
 
-&lt;p&gt;7､输入- -nointeraction回车&lt;/p&gt;
+&lt;p&gt;5､输入&lt;code&gt;--applicationpath&lt;/code&gt;空格&lt;/p&gt;
 
-&lt;p&gt;提示输入你的开机密码就出现下图，然后等；当出现第二图时就大功告成了！！&lt;/p&gt;
+&lt;p&gt;6､拖安装程序&lt;code&gt;安装osx mavericks&lt;/code&gt;到终端&lt;/p&gt;
+
+&lt;p&gt;7､输入&lt;code&gt;--nointeraction&lt;/code&gt;回车&lt;/p&gt;
+
+&lt;p&gt;提示输入你的开机密码就出现下图，然后等待；当出现第二图时就大功告成了！！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://7u2srn.com1.z0.glb.clouddn.com/@/images/post/upanosx.PNG&quot; alt=&quot;pic 01&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Apr 2015 10:06:32 +0800</pubDate>
-        <link>http://127.0.0.1:4000/osx/2015/04/06/use-u-osx.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/osx/2015/04/06/use-u-osx.html</guid>
+        <link>http://blog.chouhom.com/osx/2015/04/06/use-u-osx.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/osx/2015/04/06/use-u-osx.html</guid>
         
         
         <category>osx</category>
@@ -159,8 +196,8 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
 &lt;p&gt;​&lt;/p&gt;
 </description>
         <pubDate>Fri, 27 Feb 2015 16:31:00 +0800</pubDate>
-        <link>http://127.0.0.1:4000/day/2015/02/27/2014.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/day/2015/02/27/2014.html</guid>
+        <link>http://blog.chouhom.com/day/2015/02/27/2014.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/day/2015/02/27/2014.html</guid>
         
         
         <category>day</category>
@@ -176,8 +213,8 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
 &lt;p&gt;最后也推荐广大it朋友，在我们学习玩编译类语言时，也可学习下脚本解释型语言。解释型有着得天独厚的更易维护性的优点，性能更是比大多编译型语言快。&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Jan 2015 06:06:32 +0800</pubDate>
-        <link>http://127.0.0.1:4000/day/2015/01/27/auto-work.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/day/2015/01/27/auto-work.html</guid>
+        <link>http://blog.chouhom.com/day/2015/01/27/auto-work.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/day/2015/01/27/auto-work.html</guid>
         
         
         <category>day</category>
@@ -199,8 +236,8 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
 &lt;p&gt;思想的深刻和健康的身体是需要持续的学习和锻炼的，说的再多也无益。2015本命年，你说说看。&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Jan 2015 06:06:32 +0800</pubDate>
-        <link>http://127.0.0.1:4000/day/2015/01/27/2015-life.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/day/2015/01/27/2015-life.html</guid>
+        <link>http://blog.chouhom.com/day/2015/01/27/2015-life.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/day/2015/01/27/2015-life.html</guid>
         
         
         <category>day</category>
@@ -222,8 +259,8 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
 &lt;p&gt;我想，如果知道自己在做什么和想要什么，任性那也是tm必须的。&lt;/p&gt;
 </description>
         <pubDate>Mon, 08 Dec 2014 06:06:32 +0800</pubDate>
-        <link>http://127.0.0.1:4000/post/2014/12/08/work-in.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/post/2014/12/08/work-in.html</guid>
+        <link>http://blog.chouhom.com/post/2014/12/08/work-in.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/post/2014/12/08/work-in.html</guid>
         
         
         <category>post</category>
@@ -334,8 +371,8 @@ http://stackoverflow.com/questions/26450085/nginx-broken-after-upgrade-to-osx-yo
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;restart&lt;/span&gt;     &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;重启&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 04 Nov 2014 06:06:32 +0800</pubDate>
-        <link>http://127.0.0.1:4000/oracle/2014/11/04/redhat-oracle-start.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/oracle/2014/11/04/redhat-oracle-start.html</guid>
+        <link>http://blog.chouhom.com/oracle/2014/11/04/redhat-oracle-start.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/oracle/2014/11/04/redhat-oracle-start.html</guid>
         
         
         <category>oracle</category>

@@ -12,5 +12,29 @@ categories: jekyll
 
 ####标题二 
 
-![Alt text](http://7u2srn.com1.z0.glb.clouddn.com/@/images/post/1.png)
+> 引用
+
+1. 菠萝
+2. 茄子
+3. 西红柿
+
+---
+
+* 正方形
+* 圆形
+* 方块
+
+[linkaddress](http://www.baidu.com)
+
+---
+
+
+{% highlight javascript %}
+
+var a = "";
+alert(1);
+
+{% endhighlight %}
+
+![Alt text](http://www.baidu.com/img/bdlogo.png)
 
