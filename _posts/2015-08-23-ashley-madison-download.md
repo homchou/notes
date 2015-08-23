@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Error: You must 'brew link pcre' before nginx can be installed"
-date:   2015-05-25 01:42:01
-categories: brew nginx
+title:  ""
+date:   2015-08-23 22:00:00
+categories: download database
 ---
 
 「Life is short, have an affair. （人生如此短暂，来场婚外恋吧！）」
