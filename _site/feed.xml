@@ -6,9 +6,89 @@
 </description>
     <link>http://blog.chouhom.com/</link>
     <atom:link href="http://blog.chouhom.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Jul 2015 12:53:04 +0800</pubDate>
-    <lastBuildDate>Wed, 08 Jul 2015 12:53:04 +0800</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2015 11:10:55 +0800</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2015 11:10:55 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>移动端Web优化方案</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;优化的几点方案&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;减少HTTP请求&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;
+合并图片（css sprites），合并CSS和JS文件；图片较多的页面也可以使用 lazyLoad 等技术进行优化。
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;请正确理解 Repaint（重绘） 和 Reflow（重排）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;减少DOM操作&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;使用JSON格式来进行数据交换&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;高效使用HTML标签和CSS样式&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;使用CDN加速（内容分发网络）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;将CSS和JS放到外部文件中引用，CSS放头，JS放尾&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;精简CSS和JS文件&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;压缩图片和使用图片Sprite技术　&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;参考文章：&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/Darren_code/archive/2011/12/31/property.html&quot; target=&quot;_blank&quot;&gt;http://www.cnblogs.com/Darren_code/archive/2011/12/31/property.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 Oct 2015 19:00:00 +0800</pubDate>
+        <link>http://blog.chouhom.com/mobile/h5/web/2015/10/22/mobilepage-optimization.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/mobile/h5/web/2015/10/22/mobilepage-optimization.html</guid>
+        
+        
+        <category>mobile</category>
+        
+        <category>h5</category>
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>Ashley Madison 数据库下载</title>
+        <description>&lt;p&gt;「Life is short, have an affair. （人生如此短暂，来场婚外恋吧！）」&lt;/p&gt;
+
+&lt;p&gt;Ashley Madison 数据库已被公开，方便朋友们下载，我贴上下载地址&lt;/p&gt;
+
+&lt;p&gt;磁力链接，可用迅雷下载：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;magnet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;urn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;btih&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ae8a90de40ca3afa763c8edb43fc1fc47d75f1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dmps&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;密码暂时不可翻译成明文&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 24 Aug 2015 06:00:00 +0800</pubDate>
+        <link>http://blog.chouhom.com/download/database/2015/08/24/ashley-madison-download.html</link>
+        <guid isPermaLink="true">http://blog.chouhom.com/download/database/2015/08/24/ashley-madison-download.html</guid>
+        
+        
+        <category>download</category>
+        
+        <category>database</category>
+        
+      </item>
     
       <item>
         <title>Error: You must &#39;brew link pcre&#39; before nginx can be installed</title>
@@ -241,141 +321,6 @@
         
         
         <category>day</category>
-        
-      </item>
-    
-      <item>
-        <title>2014-12-07</title>
-        <description>&lt;p&gt;又到年底，骚动的心依然骚动。&lt;/p&gt;
-
-&lt;p&gt;在上周4接到面试结果后，就果断做出了提出离职的准备。在今年开年，工作的心态和目标中都十分模糊，在工作中似乎没有任何任务能提起我的精神和动力，那么责任感又从何而来？所以我处的位置错了，但其实很早就知道。&lt;/p&gt;
-
-&lt;p&gt;同事说，再怎么样熬也得熬到年后。但现在我不会等到年后。&lt;/p&gt;
-
-&lt;p&gt;在跟这家公司联合创始人聊的时候感觉还行，目前他们是在做一个孵化创业企业和融资的平台，整个公司是刚刚创建并且业务是面对整个互联网，这是我一心想做的。同时我也想经历完全处在一个产品初期到完全上线运行的整个过程的团队中。我没什么长处，但至少这种环境会让我长处甚至优势体现出来，不再夸夸其谈，而是把一切想法灌输到实际工作和产品中，就这么简单。&lt;/p&gt;
-
-&lt;p&gt;为什么这么任性？&lt;/p&gt;
-
-&lt;p&gt;我想，如果知道自己在做什么和想要什么，任性那也是tm必须的。&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Dec 2014 06:06:32 +0800</pubDate>
-        <link>http://blog.chouhom.com/post/2014/12/08/work-in.html</link>
-        <guid isPermaLink="true">http://blog.chouhom.com/post/2014/12/08/work-in.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>在redhat下服务式管理Oracle的启动和关闭</title>
-        <description>&lt;ol&gt;
-  &lt;li&gt;修改Oracle系统配置文件：/etc/oratab
-只有这样，Oracle 自带的dbstart和dbshut才能够发挥作用。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# vi /etc/oratab&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;orcl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/opt/o&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;racle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;102&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:Y&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Entries are of the form:&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#   $ORACLE_SID:$ORACLE_HOME:&amp;lt;N|Y&amp;gt;:&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;在&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/etc/ini&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;下创建文件&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;，内容如下：&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#!/bin/sh&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# chkconfig: 35 80 10&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# description: Oracle auto start-stop script.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Set ORA_HOME to be equivalent to the $ORACLE_HOME&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# from which you wish to execute dbstart and dbshut;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Set ORA_OWNER to the user id of the owner of the&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Oracle database in ORA_HOME.&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;ORA_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/opt/o&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;racle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;102&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;ORA_OWNER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$ORA_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dbstart&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Oracle startup: cannot start&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;fi&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;&amp;#39;start&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Start the Oracle databases:&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Starting Oracle Databases ... &amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; %T %a %D : Starting Oracle Databases as part of system up.&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;su&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$ORA_OWNER&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$ORA_HOME/bin/dbstart&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Done&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Start the Listener:&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Starting Oracle Listeners ... &amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; %T %a %D : Starting Oracle Listeners as part of system up.&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;su&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$ORA_OWNER&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$ORA_HOME/bin/lsnrctl start&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Done.&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; %T %a %D : Finished.&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;touch&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lock&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subsys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;&amp;#39;stop&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Stop the Oracle Listener:&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Stoping Oracle Listeners ... &amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; %T %a %D : Stoping Oracle Listener as part of system down.&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;su&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$ORA_OWNER&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$ORA_HOME/bin/lsnrctl stop&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Done.&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lock&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subsys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Stop the Oracle Database:&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Stoping Oracle Databases ... &amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; %T %a %D : Stoping Oracle Databases as part of system down.&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;su&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$ORA_OWNER&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$ORA_HOME/bin/dbshut&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Done.&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; %T %a %D : Finished.&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;-------------------------------------------------&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/var/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;&amp;#39;restart&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;vg&quot;&gt;$0&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stop&lt;/span&gt;
-&lt;span class=&quot;vg&quot;&gt;$0&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;esac&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;改变文件权限&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;755&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;etc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;添加服务&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chkconfig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;level&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;35&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;需要在关机或重启机器之前停止数据库，做一下操作&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/etc/ini&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/etc/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rc0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K01oracle&lt;/span&gt;   &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;关机&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/etc/ini&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/etc/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rc6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;K01oracle&lt;/span&gt;   &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;重启&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;使用方法&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;        &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;启动&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stop&lt;/span&gt;        &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;关闭&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;restart&lt;/span&gt;     &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;重启&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;oracle&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-</description>
-        <pubDate>Tue, 04 Nov 2014 06:06:32 +0800</pubDate>
-        <link>http://blog.chouhom.com/oracle/2014/11/04/redhat-oracle-start.html</link>
-        <guid isPermaLink="true">http://blog.chouhom.com/oracle/2014/11/04/redhat-oracle-start.html</guid>
-        
-        
-        <category>oracle</category>
         
       </item>
     

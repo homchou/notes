@@ -6,13 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>blog</title> 
-  <meta name="keywords" content="blog" />
-  <meta name="description" content="一个博客而已
-">
+  <title>移动端Web优化方案</title> 
+  <meta name="keywords" content="移动端Web优化方案" />
+  <meta name="description" content="优化的几点方案">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.chouhom.com/">
+  <link rel="canonical" href="http://blog.chouhom.com/mobile/h5/web/2015/10/22/mobilepage-optimization.html">
   <link rel="alternate" type="application/rss+xml" title="blog" href="http://blog.chouhom.com/feed.xml" />
 </head> 
 
@@ -56,151 +55,56 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">移动端Web优化方案</h1>
+    <p class="post-meta">Oct 22, 2015</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 22, 2015</span>
+  <article class="post-content">
+    <h3 id="section">优化的几点方案</h3>
 
-        <h2>
-          <a class="post-link" href="/mobile/h5/web/2015/10/22/mobilepage-optimization.html">移动端Web优化方案</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 24, 2015</span>
+<ol>
+  <li>减少HTTP请求</li>
+</ol>
 
-        <h2>
-          <a class="post-link" href="/download/database/2015/08/24/ashley-madison-download.html">Ashley Madison 数据库下载</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 25, 2015</span>
+<p><code>
+合并图片（css sprites），合并CSS和JS文件；图片较多的页面也可以使用 lazyLoad 等技术进行优化。
+</code></p>
 
-        <h2>
-          <a class="post-link" href="/brew/nginx/2015/05/25/brew-nginx.html">Error: You must 'brew link pcre' before nginx can be installed</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 9, 2015</span>
+<ol>
+  <li>
+    <p>请正确理解 Repaint（重绘） 和 Reflow（重排）</p>
+  </li>
+  <li>
+    <p>减少DOM操作</p>
+  </li>
+  <li>
+    <p>使用JSON格式来进行数据交换</p>
+  </li>
+  <li>
+    <p>高效使用HTML标签和CSS样式</p>
+  </li>
+  <li>
+    <p>使用CDN加速（内容分发网络）</p>
+  </li>
+  <li>
+    <p>将CSS和JS放到外部文件中引用，CSS放头，JS放尾</p>
+  </li>
+  <li>
+    <p>精简CSS和JS文件</p>
+  </li>
+  <li>
+    <p>压缩图片和使用图片Sprite技术　</p>
+  </li>
+</ol>
 
-        <h2>
-          <a class="post-link" href="/apahce/solr/2015/05/09/Apache_Solr_01.html">Apache Solr介绍及安装</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 1, 2015</span>
+<h3 id="section-1">参考文章：</h3>
+<p><a href="http://www.cnblogs.com/Darren_code/archive/2011/12/31/property.html" target="_blank">http://www.cnblogs.com/Darren_code/archive/2011/12/31/property.html</a></p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/2015/05/01/test-markdown.html">MARKDOWN测试</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 1, 2015</span>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2015/05/01/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 6, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/osx/2015/04/06/use-u-osx.html">利用U盘制作OSX 10.9、10.10的安装盘</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 27, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/day/2015/02/27/2014.html">2014</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 27, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/day/2015/01/27/auto-work.html">自动化</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 27, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/day/2015/01/27/2015-life.html">2015-01-26</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 4, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/oracle/2014/11/04/redhat-oracle-start.html">在redhat下服务式管理Oracle的启动和关闭</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 30, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/oracle/2014/10/30/vmware-redhat-oracle.html">OSX下的虚拟机（redhat6.5）上装Oracle 11g R2教程</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 22, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/osx/2014/09/22/osx-ntfs-disp.html">解决下OSX下NTFS硬盘上文件突然消失的问题</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Sep 1, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/day/2014/09/01/Eclipse-whole-word-search-in-Workspace.html">Eclipse whole word search in Workspace</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 18, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/jvm/2014/07/18/jvm-01.html">JVM垃圾收集器与内存分配</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 22, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/jvm/2014/06/22/jvm-02.html">JVM虚拟机类加载机制</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 22, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/jvm/2014/06/22/jvm-03.html">JVM自动内存管理机制</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 
