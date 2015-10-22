@@ -5,6 +5,8 @@ date:   2015-10-22 11:00:00
 categories: mobile h5 web
 ---
 
+### 优化的几点方案
+
 1. 减少HTTP请求
 
 `
@@ -28,7 +30,9 @@ categories: mobile h5 web
 9. 压缩图片和使用图片Sprite技术　
 
 
-参考文章：
 
+
+
+### 参考文章：
 [http://www.cnblogs.com/Darren_code/archive/2011/12/31/property.html](http://www.cnblogs.com/Darren_code/archive/2011/12/31/property.html){:target="_blank"}
 
